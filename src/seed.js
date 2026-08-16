@@ -19,7 +19,7 @@ const pool = new Pool(
 
 async function seed() {
   const res = await fetch(
-    "https://genshin-center.com/_next/data/RGFMLahh0T1b4znjvJakh/fr/characters.json"
+    "https://genshin-center.com/_next/data/TejtmXuSNBmArzu7doFpQ/fr/characters.json"
   );
   const data = await res.json();
   const characters = Object.values(data.pageProps.characters);
